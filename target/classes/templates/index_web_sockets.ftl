@@ -17,7 +17,7 @@
     <input name="name" id="name" placeholder="Нэйм">
     <button onclick="connect('${id}', $('#name').val())">Войти</button>
     <h1>Ваш id: ${id}</h1>
-    <h1>Ваш id: ${ids}</h1>
+<#--    <h1>Ваш id: ${ids}</h1>-->
     <br>
     <input name="message" id="message" placeholder="Сообщение">
     <button onclick="sendMessage($('#name').val(), $('#message').val())" id="sendMessageButton">Отправить</button>
