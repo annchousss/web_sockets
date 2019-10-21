@@ -1,7 +1,7 @@
 var webSocket;
 
-function connect(id) {
-    document.cookie = 'X-Authorization=' + '123456' + ';path=/';
+function connect(id, name) {
+    document.cookie = 'X-Authorization=' + id + ';path=/';
     webSocket = new WebSocket('ws://localhost:8080/chat');
 
     webSocket.onmessage = function receiveMessage(response) {
@@ -13,6 +13,7 @@ function connect(id) {
     webSocket.onerror = function errorShow() {
         alert('Ошибка авторизации')
     }
+    webSocket.onopen = () => sendMessage(name, "Hello!")
 }
 
 function sendMessage(from, text) {
