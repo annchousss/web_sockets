@@ -1,4 +1,4 @@
-package ru.itis.chats.forms;
+package ru.itis.chats.dto;
 
 import lombok.Data;
 
