@@ -26,12 +26,10 @@ public class AuthHandshakeHandler implements HandshakeHandler {
         ServletServerHttpRequest request = (ServletServerHttpRequest)serverHttpRequest;
         String cookie = WebUtils.getCookie(request.getServletRequest(), "X-Authorization").getValue();
 
-        String token = Jwts.parser()
-                .setSigningKey(Statics.jwtSecret)
-                .parseClaimsJws(cookie).getBody()
-                .getSubject();
+        String id = Jwts.parser().setSigningKey(Statics.jwtSecret)
+                .parseClaimsJws(cookie).getBody().getSubject();
 
-        if (Statics.ids.contains(token)) {
+        if(id != null){
             return handshakeHandler.doHandshake(serverHttpRequest, serverHttpResponse, webSocketHandler, map);
         } else {
             serverHttpResponse.setStatusCode(HttpStatus.FORBIDDEN);

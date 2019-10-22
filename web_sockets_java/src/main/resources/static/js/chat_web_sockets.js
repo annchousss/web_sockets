@@ -1,5 +1,7 @@
 var webSocket;
 
+let user = {};
+
 function connect(id, name) {
     document.cookie = 'X-Authorization=' + id + ';path=/';
     webSocket = new WebSocket('ws://localhost:8080/chat');
@@ -7,7 +9,7 @@ function connect(id, name) {
     webSocket.onmessage = function receiveMessage(response) {
         let data = response['data'];
         let json = JSON.parse(data);
-        $('#messagesList').first().after("<li>" + json['from'] + " " +  json['text'] + "</li>")
+        $('#messagesList').first().after("<li>" + json['username'] + " " +  json['message'] + "</li>")
     };
 
     webSocket.onerror = function errorShow() {
@@ -18,9 +20,35 @@ function connect(id, name) {
 
 function sendMessage(from, text) {
     let message = {
-        "from": from,
-        "text": text
+        "username": from,
+        "message": text
     };
 
     webSocket.send(JSON.stringify(message));
+}
+
+function getId(username) {
+    $.ajax({
+        type: 'get',
+        url: '/register',
+        data: {"username": username}
+    }).done(function (data) {
+        user = data;
+        connect(data.token, username);
+        document.getElementById("id").innerHTML = 'Ваш id ' + data.token;
+    })
+}
+
+
+function getHistory() {
+    $.ajax({
+        type: 'get',
+        url: '/getHistory',
+        data: { }
+    }).done(function (data) {
+        for (let i = 0; i < data.length; i++) {
+            $('#messagesList').first().after("<li>" + data[i].username + " " +  data[i].message + "</li>")
+        }
+
+    })
 }

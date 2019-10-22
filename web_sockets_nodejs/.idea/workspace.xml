@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e76ee2ff-8374-458a-9ae9-b6e3529db552" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../web_sockets_java/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../web_sockets_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/ChatsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/ChatsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/configs/Statics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/configs/Statics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/forms/MessageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/dto/MessageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/dto/MessageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/dto/MessageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/handlers/AuthHandshakeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/handlers/AuthHandshakeHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/handlers/MessagesWebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/handlers/MessagesWebSocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/java/ru/itis/chats/services/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/resources/static/js/chat_web_sockets.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/resources/static/js/chat_web_sockets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/src/main/resources/templates/index_web_sockets.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/src/main/resources/templates/index_web_sockets.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/configs/Statics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/configs/Statics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/controllers/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/controllers/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/forms/MessageDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/handlers/AuthHandshakeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/handlers/AuthHandshakeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/handlers/MessagesWebSocketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/target/classes/ru/itis/chats/handlers/MessagesWebSocketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/target/classes/static/js/chat_web_sockets.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/target/classes/static/js/chat_web_sockets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web_sockets_java/target/classes/templates/index_web_sockets.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../web_sockets_java/target/classes/templates/index_web_sockets.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-node-app/public/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-node-app/public/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-node-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-node-app/public/javascripts/chat_web_sockets.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-node-app/public/javascripts/chat_web_sockets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-node-app/public/test1.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,30 +42,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-node-app/public/chat.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-node-app/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-node-app/app.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-node-app/public/javascripts/chat_web_sockets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="271">
+              <caret line="40" selection-start-line="40" selection-end-line="52" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-node-app/public/test1.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -66,6 +85,7 @@
         <option value="$PROJECT_DIR$/my-node-app/public/chat.html.css" />
         <option value="$PROJECT_DIR$/my-node-app/public/chat.html" />
         <option value="$PROJECT_DIR$/my-node-app/public/javascripts/chat_web_sockets.js" />
+        <option value="$PROJECT_DIR$/my-node-app/public/index.html" />
       </list>
     </option>
   </component>
@@ -106,6 +126,13 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="web_sockets_nodejs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_sockets_nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="my-node-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -144,12 +171,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571698461979</updated>
-      <workItem from="1571698463054" duration="1269000" />
+      <workItem from="1571698463054" duration="3104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1269000" />
+    <option name="totallyTimeSpent" value="3104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -184,20 +211,20 @@
     <entry file="file://$PROJECT_DIR$/my-node-app/public/test1.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-node-app/public/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/my-node-app/app.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/my-node-app/public/javascripts/chat_web_sockets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="271">
+          <caret line="40" selection-start-line="40" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-node-app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>

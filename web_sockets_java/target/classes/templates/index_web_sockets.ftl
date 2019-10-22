@@ -12,11 +12,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chat</title>
 </head>
-<body>
+<body onload="getHistory()">
 <div>
     <input name="name" id="name" placeholder="Нэйм">
-    <button onclick="connect('${id}', $('#name').val())">Войти</button>
-    <h1>Ваш id: ${id}</h1>
+    <button onclick="getId($('#name').val())">Войти</button>
+    <h1 id="id">Ваш id: ХЗ</h1>
 <#--    <h1>Ваш id: ${ids}</h1>-->
     <br>
     <input name="message" id="message" placeholder="Сообщение">
